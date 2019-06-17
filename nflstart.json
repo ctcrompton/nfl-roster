@@ -1,0 +1,627 @@
+{
+  "version": 32,
+  "meta": {
+    "phaseText": "2019 preseason",
+    "name": "NFL"
+  },
+  "teams": [
+    {
+      "tid": 0,
+      "cid": 1,
+      "did": 7,
+      "region": "Arizona",
+      "name": "Cardinals",
+      "abbrev": "ARI",
+      "imgURL": "https://d2p3bygnnzw9w3.cloudfront.net/req/201905281/tlogo/pfr/crd-2018.png",
+      "pop": 1.6,
+      "stadiumCapacity": 63400,
+      "rid": 0
+   	},
+   	{
+      "tid": 1,
+      "cid": 1,
+      "did": 6,
+      "region": "Atlanta",
+      "name": "Falcons",
+      "abbrev": "ATL",
+      "imgURL":"https://d2p3bygnnzw9w3.cloudfront.net/req/201905281/tlogo/pfr/atl-2018.png",
+      "pop": 5.8,
+      "stadiumCapacity": 71000,
+      "rid": 1
+      },
+    {
+      "tid": 2,
+      "cid": 0,
+      "did": 1,
+      "region": "Baltimore",
+      "name": "Ravens",
+      "abbrev": "BAL",
+      "imgURL": "https://d2p3bygnnzw9w3.cloudfront.net/req/201905281/tlogo/pfr/rav-2018.png",
+      "pop": 2.8,
+      "stadiumCapacity": 71008,
+      "rid": 2
+      },
+    {
+      "tid": 3,
+      "cid": 0,
+      "did": 0,
+      "region": "Buffalo",
+      "name": "Bills",
+      "abbrev": "BUF",
+      "imgURL": "https://d2p3bygnnzw9w3.cloudfront.net/req/201905281/tlogo/pfr/buf-2018.png", 
+      "pop": 1.1,
+      "stadiumCapacity": 71870,
+      "rid": 3
+    },
+    {
+      "tid": 4,
+      "cid": 1,
+      "did": 6,
+      "region": "Carolina",
+      "name": "Panthers",
+      "abbrev": "CAR",
+      "imgURL": "https://d2p3bygnnzw9w3.cloudfront.net/req/201905281/tlogo/pfr/car-2018.png",
+      "pop": 2.5,
+      "stadiumCapacity": 75412,
+      "rid": 4
+    },
+    {
+      "tid": 5,
+      "cid": 1,
+      "did": 5,
+      "region": "Chicago",
+      "name": "Bears",
+      "abbrev": "CHI",
+      "imgURL": "https://d2p3bygnnzw9w3.cloudfront.net/req/201905281/tlogo/pfr/chi-2018.png",
+      "pop": 9.5,
+      "stadiumCapacity": 61500,
+      "rid": 5
+    },
+    {
+      "tid": 6,
+      "cid": 0,
+      "did": 1,
+      "region": "Cincinnati",
+      "name": "Bengals",
+      "abbrev": "CIN",
+      "imgURL": "https://d2p3bygnnzw9w3.cloudfront.net/req/201905281/tlogo/pfr/cin-2018.png",
+      "pop": 2.1,
+      "stadiumCapacity": 65535,
+      "rid": 6
+    },
+    {
+      "tid": 7,
+      "cid": 0,
+      "did": 1,
+      "region": "Cleveland",
+      "name": "Browns",
+      "abbrev": "CLE",
+      "imgURL": "https://d2p3bygnnzw9w3.cloudfront.net/req/201905281/tlogo/pfr/cle-2018.png",
+      "pop": 2.0,
+      "stadiumCapacity": 67895,
+      "rid": 7
+    },
+    {
+      "tid": 8,
+      "cid": 1,
+      "did": 4,
+      "region": "Dallas",
+      "name": "Cowboys",
+      "abbrev": "DAL",
+      "imgURL": "https://d2p3bygnnzw9w3.cloudfront.net/req/201905281/tlogo/pfr/dal-2018.png",
+      "pop": 7.2,
+      "stadiumCapacity": 100000,
+      "rid": 8
+    },
+    {
+      "tid": 9,
+      "cid": 0,
+      "did": 3,
+      "region": "Denver",
+      "name": "Broncos",
+      "abbrev": "DEN",
+      "imgURL": "https://d2p3bygnnzw9w3.cloudfront.net/req/201905281/tlogo/pfr/den-2018.png",
+      "pop": 2.9,
+      "stadiumCapacity": 76125,
+      "rid": 9
+    },
+    {
+      "tid": 10,
+      "cid": 1,
+      "did": 5,
+      "region": "Detroit",
+      "name": "Lions",
+      "abbrev": "DET",
+      "imgURL": "https://d2p3bygnnzw9w3.cloudfront.net/req/201905281/tlogo/pfr/det-2018.png",
+      "pop": 4.3,
+      "stadiumCapacity": 65000,
+      "rid": 10
+    },
+    {
+      "tid": 11,
+      "cid": 1,
+      "did": 5,
+      "region": "Green Bay",
+      "name": "Packers",
+      "abbrev": "GB",
+      "imgURL": "https://d2p3bygnnzw9w3.cloudfront.net/req/201905281/tlogo/pfr/gnb-2018.png",
+      "pop": 1.6,
+      "stadiumCapacity": 81441,
+      "rid": 11
+    },
+    {
+      "tid": 12,
+      "cid": 0,
+      "did": 2,
+      "region": "Houston",
+      "name": "Texans",
+      "abbrev": "HOU",
+      "imgURL": "https://d2p3bygnnzw9w3.cloudfront.net/req/201905281/tlogo/pfr/htx-2018.png",
+      "pop": 7.0,
+      "stadiumCapacity": 72200,
+      "rid": 12
+    },
+    {
+      "tid": 13,
+      "cid": 0,
+      "did": 2,
+      "region": "Indianapolis",
+      "name": "Colts",
+      "abbrev": "IND",
+      "imgURL": "https://d2p3bygnnzw9w3.cloudfront.net/req/201905281/tlogo/pfr/clt-2018.png",
+      "pop": 2,
+      "stadiumCapacity": 70000,
+      "rid": 13
+    },
+    {
+      "tid": 14,
+      "cid": 0,
+      "did": 2,
+      "region": "Jacksonville",
+      "name": "Jaguars",
+      "abbrev": "JAX",
+      "imgURL": "https://d2p3bygnnzw9w3.cloudfront.net/req/201905281/tlogo/pfr/jax-2018.png",
+      "pop": 1.5,
+      "stadiumCapacity": 67164,
+      "rid": 14
+    },
+    {
+      "tid": 15,
+      "cid": 0,
+      "did": 3,
+      "region": "Kansas City",
+      "name": "Chiefs",
+      "abbrev": "KS",
+      "imgURL": "https://d2p3bygnnzw9w3.cloudfront.net/req/201905281/tlogo/pfr/kan-2018.png",
+      "pop": 2.1,
+      "stadiumCapacity": 76416,
+      "rid": 15
+    },
+    {
+      "tid": 16,
+      "cid": 0,
+      "did": 3,
+      "region": "Los Angeles",
+      "name": "Chargers",
+      "abbrev": "LAC",
+      "imgURL": "https://d2p3bygnnzw9w3.cloudfront.net/req/201905281/tlogo/pfr/sdg-2018.png",
+      "pop": 13.1,
+      "stadiumCapacity": 70240,
+      "rid": 16
+    },
+    {
+      "tid": 17,
+      "cid": 1,
+      "did": 7,
+      "region": "Los Angeles",
+      "name": "Rams",
+      "abbrev": "LA",
+      "imgURL": "https://d2p3bygnnzw9w3.cloudfront.net/req/201905281/tlogo/pfr/ram-2018.png",
+      "pop": 13.1,
+      "stadiumCapacity": 78467,
+      "rid": 17
+    },
+    {
+      "tid": 18,
+      "cid": 0,
+      "did": 0,
+      "region": "Miami",
+      "name": "Dolphins",
+      "abbrev": "MIA",
+      "imgURL": "https://d2p3bygnnzw9w3.cloudfront.net/req/201905281/tlogo/pfr/mia-2018.png",
+      "pop": 6.2,
+      "stadiumCapacity": 65326,
+      "rid": 18
+    },
+    {
+      "tid": 19,
+      "cid": 1,
+      "did": 5,
+      "region": "Minnesota",
+      "name": "Vikings",
+      "abbrev": "MIN",
+      "imgURL": "https://d2p3bygnnzw9w3.cloudfront.net/req/201905281/tlogo/pfr/min-2018.png",
+      "pop": 3.3,
+      "stadiumCapacity": 66655,
+      "rid": 19
+    },
+    {
+      "tid": 20,
+      "cid": 0,
+      "did": 0,
+      "region": "New England",
+      "name": "Patriots",
+      "abbrev": "NE",
+      "imgURL": "https://d2p3bygnnzw9w3.cloudfront.net/req/201905281/tlogo/pfr/nwe-2018.png",
+      "pop": 4.6,
+      "stadiumCapacity": 66829,
+      "rid": 20
+    },
+    {
+      "tid": 21,
+      "cid": 1,
+      "did": 6,
+      "region": "New Orleans",
+      "name": "Saints",
+      "abbrev": "NO",
+      "imgURL": "https://d2p3bygnnzw9w3.cloudfront.net/req/201905281/tlogo/pfr/nor-2018.png",
+      "pop": 1.3,
+      "stadiumCapacity": 74295,
+      "rid": 21
+    },
+    {
+      "tid": 22,
+      "cid": 1,
+      "did": 4,
+      "region": "New York",
+      "name": "Giants",
+      "abbrev": "NYG",
+      "imgURL": "https://d2p3bygnnzw9w3.cloudfront.net/req/201905281/tlogo/pfr/nyg-2018.png",
+      "pop": 20.3,
+      "stadiumCapacity": 82500,
+      "rid": 22
+    },
+    {
+      "tid": 23,
+      "cid": 0,
+      "did": 0,
+      "region": "New York",
+      "name": "Jets",
+      "abbrev": "NYJ",
+      "imgURL": "https://d2p3bygnnzw9w3.cloudfront.net/req/201905281/tlogo/pfr/nyj-2018.png",
+      "pop": 20.3,
+      "stadiumCapacity": 82500,
+      "rid": 23
+    },
+    {
+      "tid": 24,
+      "cid": 0,
+      "did": 3,
+      "region": "Oakland",
+      "name": "Raiders",
+      "abbrev": "OAK",
+      "imgURL": "https://d2p3bygnnzw9w3.cloudfront.net/req/201905281/tlogo/pfr/rai-2018.png",
+      "pop": 1.9,
+      "stadiumCapacity": 63132,
+      "rid": 24
+    },
+    {
+      "tid": 25,
+      "cid": 1,
+      "did": 4,
+      "region": "Philadelphia",
+      "name": "Eagles",
+      "abbrev": "PHI",
+      "imgURL": "https://d2p3bygnnzw9w3.cloudfront.net/req/201905281/tlogo/pfr/phi-2018.png",
+      "pop": 6.1,
+      "stadiumCapacity": 69176,
+      "rid": 25
+    },
+    {
+      "tid": 26,
+      "cid": 0,
+      "did": 1,
+      "region": "Pittsburgh",
+      "name": "Steelers",
+      "abbrev": "PIT",
+      "imgURL": "https://d2p3bygnnzw9w3.cloudfront.net/req/201905281/tlogo/pfr/pit-2018.png",
+      "pop": 2.4,
+      "stadiumCapacity": 68400,
+      "rid": 26
+    },
+    {
+      "tid": 27,
+      "cid": 1,
+      "did": 7,
+      "region": "San Francisco",
+      "name": "49ers",
+      "abbrev": "SF",
+      "imgURL": "https://d2p3bygnnzw9w3.cloudfront.net/req/201905281/tlogo/pfr/sfo-2018.png",
+      "pop": 4.7,
+      "stadiumCapacity": 68500,
+      "rid": 27
+    },
+    {
+      "tid": 28,
+      "cid": 1,
+      "did": 7,
+      "region": "Seattle",
+      "name": "Seahawks",
+      "abbrev": "SEA",
+      "imgURL": "https://d2p3bygnnzw9w3.cloudfront.net/req/201905281/tlogo/pfr/sea-2018.png",
+      "pop": 3.9,
+      "stadiumCapacity": 72000,
+      "rid": 28
+    },
+    {
+      "tid": 29,
+      "cid": 1,
+      "did": 6,
+      "region": "Tampa Bay",
+      "name": "Buccaneers",
+      "abbrev": "TB",
+      "imgURL": "https://d2p3bygnnzw9w3.cloudfront.net/req/201905281/tlogo/pfr/tam-2018.png",
+      "pop": 2.8,
+      "stadiumCapacity": 65890,
+      "rid": 29
+    },
+    {
+      "tid": 30,
+      "cid": 0,
+      "did": 2,
+      "region": "Tennessee",
+      "name": "Titans",
+      "abbrev": "TEN",
+      "imgURL": "https://d2p3bygnnzw9w3.cloudfront.net/req/201905281/tlogo/pfr/oti-2018.png",
+      "pop": 1.9,
+      "stadiumCapacity": 69143,
+      "rid": 30
+    },
+    {
+      "tid": 31,
+      "cid": 1,
+      "did": 4,
+      "region": "Washington",
+      "name": "Redskins",
+      "abbrev": "WAS",
+      "imgURL": "https://d2p3bygnnzw9w3.cloudfront.net/req/201905281/tlogo/pfr/was-2018.png",
+      "pop": 6.2,
+      "stadiumCapacity": 82000,
+      "rid": 31
+    }
+   ],
+  "gameAttributes": [
+    {
+      "key": "aiTrades",
+      "value": true
+    },
+    {
+      "key": "autoDeleteOldBoxScores",
+      "value": true
+    },
+    {
+      "key": "brotherRate",
+      "value": 0.005
+    },
+    {
+      "key": "confs",
+      "value": [
+        {
+          "cid": 0,
+          "name": "American Conference"
+        },
+        {
+          "cid": 1,
+          "name": "National Conference"
+        }
+      ]
+    },
+    {
+      "key": "daysLeft",
+      "value": 0
+    },
+    {
+      "key": "defaultStadiumCapacity",
+      "value": 70000
+    },
+    {
+      "key": "difficulty",
+      "value": 0
+    },
+    {
+      "key": "disableInjuries",
+      "value": false
+    },
+    {
+      "key": "divs",
+      "value": [
+        {
+          "did": 0,
+          "cid": 0,
+          "name": "East"
+        },
+        {
+          "did": 1,
+          "cid": 0,
+          "name": "North"
+        },
+        {
+          "did": 2,
+          "cid": 0,
+          "name": "South"
+        },
+        {
+          "did": 3,
+          "cid": 0,
+          "name": "West"
+        },
+        {
+          "did": 4,
+          "cid": 1,
+          "name": "East"
+        },
+        {
+          "did": 5,
+          "cid": 1,
+          "name": "North"
+        },
+        {
+          "did": 6,
+          "cid": 1,
+          "name": "South"
+        },
+        {
+          "did": 7,
+          "cid": 1,
+          "name": "West"
+        }
+      ]
+    },
+    {
+      "key": "draftType",
+      "value": "noLottery"
+    },
+    {
+      "key": "easyDifficultyInPast",
+      "value": false
+    },
+    {
+      "key": "gameOver",
+      "value": false
+    },
+    {
+      "key": "godMode",
+      "value": false
+    },
+    {
+      "key": "godModeInPast",
+      "value": false
+    },
+    {
+      "key": "gracePeriodEnd",
+      "value": 2021
+    },
+    {
+      "key": "hardCap",
+      "value": true
+    },
+    {
+      "key": "injuryRate",
+      "value": 0.002
+    },
+    {
+      "key": "leagueName",
+      "value": "League 1"
+    },
+    {
+      "key": "luxuryPayroll",
+      "value": 100000
+    },
+    {
+      "key": "luxuryTax",
+      "value": 1.5
+    },
+    {
+      "key": "maxContract",
+      "value": 30000
+    },
+    {
+      "key": "maxRosterSize",
+      "value": 53
+    },
+    {
+      "key": "minContract",
+      "value": 480
+    },
+    {
+      "key": "minPayroll",
+      "value": 157700
+    },
+    {
+      "key": "minRosterSize",
+      "value": 40
+    },
+    {
+      "key": "nextPhase",
+      "value": null
+    },
+    {
+      "key": "numDraftRounds",
+      "value": 8
+    },
+    {
+      "key": "numGames",
+      "value": 16
+    },
+    {
+      "key": "numGamesPlayoffSeries",
+      "value": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "key": "numPlayoffByes",
+      "value": 4
+    },
+    {
+      "key": "numTeams",
+      "value": 32
+    },
+    {
+      "key": "ownerMood",
+      "value": {
+        "wins": 0,
+        "playoffs": 0,
+        "money": 0
+      }
+    },
+    {
+      "key": "phase",
+      "value": 0
+    },
+    {
+      "key": "quarterLength",
+      "value": 15
+    },
+    {
+      "key": "salaryCap",
+      "value": 188100
+    },
+    {
+      "key": "season",
+      "value": 2019
+    },
+    {
+      "key": "showFirstOwnerMessage",
+      "value": true
+    },
+    {
+      "key": "sonRate",
+      "value": 0.005
+    },
+    {
+      "key": "startingSeason",
+      "value": 2019
+    },
+    {
+      "key": "stopOnInjury",
+      "value": false
+    },
+    {
+      "key": "stopOnInjuryGames",
+      "value": 1
+    },
+    {
+      "key": "ties",
+      "value": true
+    },
+    {
+      "key": "tragicDeathRate",
+      "value": 0.001
+    }
+    
+  ]
+}
